@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  grid-row-start: 2;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.container {
+    padding: 0 22rem;
+}
+
+@media (max-width: 600px) {
+  .container{
+    padding: 0 2rem 0 3rem;
+  }
+}
